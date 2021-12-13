@@ -37,6 +37,11 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #467745;
+    opacity: 50%;
+}
+
+::placeholder{
+    padding: 20px;
 }
 
 input{
