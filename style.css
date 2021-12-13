@@ -1,0 +1,123 @@
+body{
+    background-color: #F7E4D4;
+    padding: 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'EB Garamond', serif;
+    color: #467745;
+}
+@media only screen and (min-width: 521px){
+    h1{
+        font-size: 48px;
+        align-self: center;
+    }
+}
+@media only screen and (max-width: 520px){
+    h1{
+        font-size: 36px;
+    }
+}
+
+::placeholder, label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #467745;
+}
+
+input{
+    max-width: 480px;
+    height: 64px;
+    padding: 0;
+    border: none;
+    background-color: white;
+    margin: 20px 0;
+}
+
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+
+
+@media only screen and (min-width: 521px){
+    input{
+        width: 480px;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    input{
+        width: 100%;
+    }
+}
+
+textarea{
+    max-width: 480px;
+    height: 120px;
+    border: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 521px){
+    textarea{
+        width: 480px;
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    textarea{
+        width: 100%;
+    }
+}
+
+button{
+    background-color: #467745;
+    color: #F7E4D4;
+    font-family: 'EB Garamond', serif;
+    font-size: 21px;
+    max-width: 280px;
+    height: 80px;
+    border-radius: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    align-self: center;
+    margin: 20px 0;
+    border: none;
+}
+
+@media only screen and (min-width: 521px){
+    button{
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    button{
+        width: 100%;
+    }
+}
+
+label{
+    align-self: center;
+    justify-content: center;
+}
