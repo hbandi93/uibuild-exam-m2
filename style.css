@@ -15,11 +15,13 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: center;
 }
 
 h1{
     font-family: 'EB Garamond', serif;
     color: #467745;
+    margin: 0;
 }
 @media only screen and (min-width: 521px){
     h1{
@@ -103,7 +105,7 @@ button{
     max-width: 280px;
     height: 80px;
     border-radius: 40px;
-    letter-spacing: 5px;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     align-self: center;
     margin: 20px 0;
@@ -125,4 +127,5 @@ button{
 label{
     align-self: center;
     justify-content: center;
+    opacity: 100%;
 }
